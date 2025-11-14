@@ -25,7 +25,7 @@ const prenom = ref('')
 const commentaire = ref('')
 const contacts = ref([])
 
-const API_URL = 'http://localhost:8080/api.php'
+const API_URL = 'http://localhost:3000/api.php'
 
 const envoyer = async () => {
   await fetch(API_URL, {
